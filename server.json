@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/datacrazy-mcp",
+  "title": "DataCrazy",
+  "description": "DataCrazy omnichannel CRM (WhatsApp, Instagram, Facebook) via the official API: leads, deals, pipeli",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/datacrazy-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_datacrazy"
+    }
+  ]
+}
